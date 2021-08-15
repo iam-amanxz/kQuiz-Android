@@ -11,10 +11,10 @@
         android:theme="@style/Theme.KQuiz">
         <activity
             android:name=".ResultActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".QuizActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".SelectCategoryActivity"
             android:exported="true" />
@@ -23,7 +23,7 @@
             android:exported="true" />
         <activity
             android:name=".SignInActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">
