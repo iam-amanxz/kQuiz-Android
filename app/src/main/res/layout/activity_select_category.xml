@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:gravity="center"
+    tools:context=".SelectCategoryActivity">
+
+    <!--Card-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fitsSystemWindows="true"
+        app:cardBackgroundColor="@color/primary_dark"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!--Welcome-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Choose a category"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:height="60dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Flags"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="100dp"
+                app:strokeColor="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:height="60dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Birds"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="100dp"
+                app:strokeColor="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:height="60dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Fruits"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="100dp"
+                app:strokeColor="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="60dp"
+                android:backgroundTint="@color/secondary"
+                android:elevation="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Mixed"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="100dp"
+                app:strokeColor="@color/white" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
