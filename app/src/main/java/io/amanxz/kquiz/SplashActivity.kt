@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
+import android.view.animation.AnimationUtils
 import io.amanxz.kquiz.databinding.ActivitySplashBinding
 
 
@@ -23,8 +24,9 @@ class SplashActivity : BaseActivity() {
         // wait 2 seconds and display start playing button
         val handler = Handler(Looper.getMainLooper())
         handler.postDelayed(Runnable {
-            // TODO: Animate from bottom
+            val splashAnimation = AnimationUtils.loadAnimation(applicationContext,R.anim.anim_splash)
             binding.btnStartFrame.visibility = View.VISIBLE
+            binding.btnStartFrame.startAnimation(splashAnimation)
         }, 2000)
 
         binding.btnStart.setOnClickListener {

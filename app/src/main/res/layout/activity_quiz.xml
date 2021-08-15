@@ -97,7 +97,7 @@
                         android:layout_height="match_parent"
                         android:contentDescription="Quiz Image"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/ic_launcher_foreground" />
+                        app:srcCompat="@drawable/ic_bird_hummingbird" />
                 </androidx.cardview.widget.CardView>
 
                 <com.google.android.material.button.MaterialButton

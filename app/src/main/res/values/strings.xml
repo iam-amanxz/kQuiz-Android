@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">kQuiz</string>
+    <string name="question_flags">What country does this flag belongs to?</string>
+    <string name="question_birds">Identify the bird in this picture</string>
+    <string name="question_fruits">Name the fruit in this picture</string>
+    <string name="question_mixed">Identify the item in this picture</string>
 </resources>
