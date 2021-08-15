@@ -10,24 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KQuiz">
         <activity
-            android:name=".SelectCategoryActivity"
+            android:name=".ResultActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SelectCategoryActivity"
+            android:exported="true" />
         <activity
             android:name=".BaseActivity"
             android:exported="true" />
         <activity
             android:name=".SignInActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

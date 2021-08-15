@@ -45,6 +45,7 @@
             android:paddingRight="30dp"
             android:text="Start Playing"
             android:textColor="@color/dark"
+            android:textSize="18sp"
             android:textStyle="bold" />
     </FrameLayout>
 

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fitsSystemWindows="true"
+        app:cardBackgroundColor="@color/primary_dark"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="80dp">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Congratulations, Aman!"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You Scored 4300!"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+<!--            TODO-->
+<!--            <TextView-->
+<!--                android:id="@+id/tv_leaderboard"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/tv_score"-->
+<!--                android:minWidth="80dp"-->
+<!--                android:paddingHorizontal="15dp"-->
+<!--                android:paddingVertical="8dp"-->
+<!--                android:text="View Leaderboard"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="22sp"-->
+<!--                android:textStyle="bold" />-->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_quit"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:height="60dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="200dp"
+        android:text="Quit"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:strokeColor="@color/white" />
+
+    <FrameLayout
+        android:id="@+id/btn_play_again_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_yellow">
+
+        <Button
+            android:id="@+id/btn_play_again"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="60dp"
+            android:background="@drawable/btn_yellow"
+            android:backgroundTint="@color/white"
+            android:minWidth="200dp"
+            android:text="Play Again"
+            android:textAlignment="center"
+            android:textColor="@color/dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+</LinearLayout>

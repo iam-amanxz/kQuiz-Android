@@ -73,6 +73,7 @@
                     android:background="@drawable/btn_yellow"
                     android:backgroundTint="@color/white"
                     android:text="Continue"
+                    android:textSize="18sp"
                     android:textColor="@color/dark"
                     android:textStyle="bold" />
             </FrameLayout>
