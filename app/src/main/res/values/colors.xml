@@ -10,7 +10,7 @@
 
     <!--Custom Theme Colors-->
     <color name="primary">#5407F8</color>
-    <color name="primary_dark">#230E7580</color>
+    <color name="primary_dark">#80230E75</color>
     <color name="secondary">#FFC700</color>
     <color name="secondary_dark">#F58500</color>
     <color name="dark">#2E2E2E</color>
