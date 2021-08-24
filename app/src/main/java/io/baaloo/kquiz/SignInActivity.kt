@@ -1,9 +1,9 @@
-package io.amanxz.kquiz
+package io.baaloo.kquiz
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import io.amanxz.kquiz.databinding.ActivitySignInBinding
+import io.baaloo.kquiz.databinding.ActivitySignInBinding
 
 class SignInActivity : BaseActivity() {
     private lateinit var binding: ActivitySignInBinding

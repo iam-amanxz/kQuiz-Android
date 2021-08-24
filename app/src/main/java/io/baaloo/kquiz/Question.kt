@@ -1,4 +1,4 @@
-package io.amanxz.kquiz
+package io.baaloo.kquiz
 
 data class Question(
     val id: Int,

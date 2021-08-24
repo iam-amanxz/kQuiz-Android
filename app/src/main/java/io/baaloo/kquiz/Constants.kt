@@ -1,4 +1,4 @@
-package io.amanxz.kquiz
+package io.baaloo.kquiz
 
 object Constants {
     const val KEY_USERNAME = "username"

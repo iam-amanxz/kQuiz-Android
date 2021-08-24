@@ -1,4 +1,4 @@
-package io.amanxz.kquiz
+package io.baaloo.kquiz
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import android.view.View
 import android.view.animation.AnimationUtils
-import io.amanxz.kquiz.databinding.ActivitySplashBinding
+import io.baaloo.kquiz.databinding.ActivitySplashBinding
 
 
 class SplashActivity : BaseActivity() {

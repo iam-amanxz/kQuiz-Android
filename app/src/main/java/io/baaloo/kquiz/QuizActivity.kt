@@ -1,4 +1,4 @@
-package io.amanxz.kquiz
+package io.baaloo.kquiz
 
 import android.content.Intent
 import android.content.res.ColorStateList
@@ -8,7 +8,7 @@ import android.os.Looper
 import android.view.View
 import android.widget.Toast
 import com.google.android.material.button.MaterialButton
-import io.amanxz.kquiz.databinding.ActivityQuizBinding
+import io.baaloo.kquiz.databinding.ActivityQuizBinding
 
 class QuizActivity : BaseActivity(), View.OnClickListener {
     private lateinit var binding: ActivityQuizBinding

@@ -1,10 +1,10 @@
-package io.amanxz.kquiz
+package io.baaloo.kquiz
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import io.amanxz.kquiz.databinding.ActivitySelectCategoryBinding
+import io.baaloo.kquiz.databinding.ActivitySelectCategoryBinding
 
 class SelectCategoryActivity : BaseActivity(), View.OnClickListener {
     private lateinit var binding: ActivitySelectCategoryBinding

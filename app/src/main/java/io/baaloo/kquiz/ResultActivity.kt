@@ -1,11 +1,11 @@
-package io.amanxz.kquiz
+package io.baaloo.kquiz
 
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import io.amanxz.kquiz.databinding.ActivityResultBinding
+import io.baaloo.kquiz.databinding.ActivityResultBinding
 
 class ResultActivity : BaseActivity() {
     private lateinit var binding: ActivityResultBinding
@@ -26,7 +26,7 @@ class ResultActivity : BaseActivity() {
         mScore = intent.getStringExtra(Constants.KEY_SCORE)
 
         binding.tvUsername.text = "Congratulations, $mUsername!"
-        binding.tvScore.text = "You Scored $mScore!"
+        binding.tvScore.text = "You scored $mScore!"
 
         binding.btnQuit.setOnClickListener {
             finish();
